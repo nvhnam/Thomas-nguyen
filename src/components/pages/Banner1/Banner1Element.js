@@ -6,7 +6,7 @@ export const Banner1Container = styled.div`
   width: 100%;
   min-width: 80%;
   height: 11vmax;
-  margin-top: 1rem;
+  margin-top: 9rem;
   left: 0;
   right: 0;
   /* top: 0; */
