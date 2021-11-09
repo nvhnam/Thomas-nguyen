@@ -7,7 +7,7 @@ export const RecordingContainer = styled.div`
   background-color: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%);
   justify-content: center;
   align-items: center;
-  z-index: 3;
+  z-index: 4;
   position: relative;
   top: 0;
   left: 0;
