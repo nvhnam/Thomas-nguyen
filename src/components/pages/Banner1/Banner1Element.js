@@ -9,13 +9,8 @@ export const Banner1Container = styled.div`
   margin-top: 9rem;
   left: 0;
   right: 0;
-  /* top: 0; */
-  top: 50px;
-  position: sticky;
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -o-sticky;
-  position: -ms-sticky;
+  top: 0px;
+  position: relative;
   z-index: 2;
 
   @media screen and (max-width: 940px) {
