@@ -27,26 +27,26 @@ const Contact = () => {
                 name="contact"
                 method="post"
                 data-netlify="true"
-                data-netlify-honeypot="bot-field"
+                onSubmit="submit"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <FormField>
-                  <input type="hidden" name="contact" value="contact" />
                   <FormLabel>Name</FormLabel>
                   <FormInput
                     id="name"
                     type="text"
                     placeholder="Enter your name"
-                    // name="name"
+                    name="name"
                     required
                   ></FormInput>
                 </FormField>
                 <FormField>
-                  <FormLabel>Email</FormLabel>
+                  <FormLabel htmlFor="email">Email</FormLabel>
                   <FormInput
                     id="name"
                     type="email"
                     placeholder="Enter your email"
-                    // name="email"
+                    name="email"
                     required
                   ></FormInput>
                 </FormField>
@@ -57,7 +57,7 @@ const Contact = () => {
                     type="number"
                     placeholder="Enter your phone number"
                     required
-                    // name="number"
+                    name="number"
                   ></FormInput>
                 </FormField>
                 <FormField>
@@ -66,7 +66,7 @@ const Contact = () => {
                     id="message"
                     type="text"
                     placeholder="..."
-                    // name="message"
+                    name="message"
                     required
                   ></FormTextInput>
                 </FormField>
