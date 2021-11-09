@@ -71,16 +71,14 @@ const Contact = () => {
                   ></FormTextInput>
                 </FormField>
                 <FormButton>
-                  <a href="/">
-                    <Button
-                      primary={false}
-                      big={false}
-                      fontBig={false}
-                      type="submit"
-                    >
-                      Send
-                    </Button>
-                  </a>
+                  <Button
+                    primary={false}
+                    big={false}
+                    fontBig={false}
+                    type="submit"
+                  >
+                    Send
+                  </Button>
                 </FormButton>
               </ContactForm>
             </ContactCol1>
