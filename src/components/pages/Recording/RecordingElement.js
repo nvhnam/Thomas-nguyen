@@ -88,7 +88,7 @@ export const RecordingBandPic = styled.div`
 `;
 
 export const RecordingText1Wrapper = styled.div`
-  background: rgba(0, 0, 0, 0.24);
+  background: rgba(0, 0, 0, 0.37);
   border-radius: 4px;
   padding: 2rem;
   width: 100%;
@@ -118,11 +118,12 @@ export const RecordingText1Wrapper = styled.div`
 `;
 
 export const RecordingCol1Heading = styled.h1`
-  color: goldenrod;
+  color: #ffbe0b;
   font-size: 2rem;
   margin-bottom: 0.8rem;
   margin-top: -0.7rem;
   text-align: center;
+  font-family: var(--Rubik);
 
   @media screen and (max-width: 940px) {
     font-size: 1.5rem;
@@ -306,11 +307,10 @@ export const RecordingCol2Para = styled.p`
   color: #010606;
   margin-top: 0.8rem;
   display: inline-block;
-  margin-right: 0.7rem;
+  margin-right: 0.5rem;
 
   @media screen and (max-width: 940px) {
     font-size: 1.5rem;
-    margin-right: 0.5rem;
     margin-top: 1rem;
   }
 

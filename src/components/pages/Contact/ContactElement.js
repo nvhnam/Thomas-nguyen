@@ -69,10 +69,10 @@ export const ContactCol1 = styled.div`
   /* box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 35%); */
   border-radius: 6px;
 
-   @media screen and (max-width: 940px) {
+  @media screen and (max-width: 940px) {
     width: 360px;
   }
-  
+
   @media screen and (max-width: 767px) {
     width: 85%;
     opacity: 0.75;
@@ -105,7 +105,8 @@ export const FormHeading = styled.h1`
   font-size: 2rem;
   color: #010606;
   text-align: center;
-  margin: 1rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+  font-family: var(--Rubik);
 
   @media screen and (max-width: 940px) {
     font-size: 1.85rem;

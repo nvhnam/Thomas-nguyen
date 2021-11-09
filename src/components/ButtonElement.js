@@ -7,7 +7,7 @@ export const Button = styled(LinkS)`
   text-align: center;
   outline: none;
   text-decoration: none;
-  border: ${({ withBorder }) => (withBorder ? "2px solid goldenrod" : "none")};
+  border: ${({ withBorder }) => (withBorder ? "2px solid #ffbe0b" : "none")};
   justify-content: center;
   align-items: center;
   border-radius: 25px;

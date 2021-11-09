@@ -58,7 +58,7 @@ export const NavLogo = styled.div`
 `;
 
 export const LogoName = styled.div`
-  color: goldenrod;
+  color: #ffbe0b;
   font-size: 1.5rem;
   font-weight: bold;
 
@@ -71,7 +71,7 @@ export const LogoName = styled.div`
     font-size: 1.3rem;
   }
 
-  @media screen and (min-width: 411px) {
+  @media screen and (width: 414px) {
     margin-left: 2.8rem;
   }
 
@@ -89,7 +89,7 @@ export const MenuIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    color: goldenrod;
+    color: #ffbe0b;
     cursor: pointer;
     align-items: center;
     font-size: 1.8rem;
@@ -127,7 +127,7 @@ export const NavLink = styled(LinkS)`
   transition: all 0.2s ease;
 
   &.active {
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 2px solid #ffbe0b;
   }
 
   @media screen and (max-width: 940px) {

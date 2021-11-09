@@ -19,7 +19,7 @@ export const SidebarContainer = styled.div`
 
 export const CloseIcon = styled.div`
   display: flex;
-  color: goldenrod;
+  color: #ffbe0b;
   font-size: 1.9rem;
   cursor: pointer;
   justify-self: flex-end;

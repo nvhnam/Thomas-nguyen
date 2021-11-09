@@ -94,7 +94,8 @@ export const FooterPara = styled.p`
 
 export const FooterAuthor = styled.span`
   font-size: 0.9rem;
-  color: goldenrod;
+  color: #ffbe0b;
+  font-weight: 600;
 
   @media screen and (max-width: 767px) {
     font-size: 0.75rem;
