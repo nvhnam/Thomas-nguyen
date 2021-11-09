@@ -1,0 +1,44 @@
+.cover {
+  opacity: 0.75;
+  height: 523px;
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .cover {
+    height: 470px;
+    margin-left: -6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    display: none;
+    /* width: 27rem;
+    height: auto;
+    background-attachment: fixed; */
+  }
+
+  .column1 {
+    background-image: url("../../images/Profile/Cover.jpeg");
+    background-position: -34vw 19vmin;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: 38rem 38rem;
+    background-attachment: fixed;
+    opacity: 0.75;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .column1 {
+    background-position: -46vw 13vmin;
+    background-size: 180%;
+  }
+}

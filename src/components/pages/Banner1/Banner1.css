@@ -1,0 +1,13 @@
+.banner1 {
+  background-image: url("../../../images/Profile/banner1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0vw -31vmax;
+  background-attachment: scroll;
+}
+
+@media screen and (max-width: 767px) {
+  .banner1 {
+    background-position: 0vw -31vmin;
+  }
+}

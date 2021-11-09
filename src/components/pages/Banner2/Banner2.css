@@ -1,0 +1,19 @@
+.banner2Img {
+  background-image: url("../../../images/Profile/banner2.jpeg");
+  background-position: 0vw -18vmax;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner2Img {
+    background-position: 0vw -13.5vmax;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner2Img {
+    background-position: 0vw -7vmax;
+  }
+}

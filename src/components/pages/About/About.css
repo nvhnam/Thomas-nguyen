@@ -1,0 +1,44 @@
+.bandName {
+  color: goldenrod;
+  font-size: 20px;
+  margin: 0 0.5rem;
+}
+
+.aboutimg {
+  width: 310px;
+  height: 95%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 30%);
+  /* opacity: 0.93; */
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 940px) {
+  .bandName {
+    font-size: 1.2rem;
+    margin: 0 0.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutimg {
+    margin-top: 10rem;
+    width: 270px;
+    height: 97%;
+  }
+  .bandName {
+    font-size: 16px;
+    margin: 0 0.31rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutimg {
+    margin-top: -1rem;
+    width: 200px;
+    height: 97%;
+  }
+  .bandName {
+    font-size: 13px;
+    margin: 0 0.3rem;
+  }
+}

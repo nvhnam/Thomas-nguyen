@@ -1,0 +1,36 @@
+.RecordingPic {
+  background-image: url("../../../images/Profile/Team.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.sponsor1 {
+  background-image: url("../../../images/Band/Bản\ sao\ của\ 24beat.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sponsor2 {
+  background-image: url("../../../images/Band/IMG_5865.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sponsor3 {
+  background-image: url("../../../images/Band/TC\ nen\ do.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.facebook {
+  color: #405DE6;
+}
+
+.instagram {
+  color: #E1306C;
+}
+
+.soundcloud {
+  color: #ff5500;
+}

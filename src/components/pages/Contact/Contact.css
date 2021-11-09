@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+#contact {
+  background-image: url("../../../images/Profile/Contact.CR2");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  /* background-position: -18vw -10vmax; */
+  background-position: 19vw -5vmax;
+  background-clip: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  #contact {
+    background-size: 140%;
+    background-position: 4vw -10vmin;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #contact {
+    background-size: 165%;
+    background-position: -8vw -5vmin;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #contact {
+    background-size: 270%;
+    background-position: -83vw -30vmin;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #contact {
+    background-size: 305%;
+    background-position: -102vw -27vmin;
+  }
+}

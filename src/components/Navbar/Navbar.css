@@ -1,0 +1,21 @@
+img {
+  width: 4rem;
+  height: auto;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    margin-left: 0.8rem;
+    width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  img {
+    margin-left: 0.4rem;
+    width: 3.1rem;
+  }
+}
