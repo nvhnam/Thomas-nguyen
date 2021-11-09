@@ -58,7 +58,7 @@ export const AboutRow = styled.div`
 export const AboutCol1 = styled.div`
   width: 60%;
   padding-left: 3rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
 
   @media screen and (max-width: 940px) {
     margin-top: -3rem;
