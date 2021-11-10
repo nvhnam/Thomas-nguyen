@@ -11,7 +11,7 @@ export const ContactContainer = styled.div`
   margin-top: 1000px;
   /* background-color: #e2c9be; */
   /* background-color: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%); */
-  z-index: 4;
+  z-index: 5;
 
   @media screen and (max-width: 767px) {
     height: 560px;
