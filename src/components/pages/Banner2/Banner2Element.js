@@ -6,9 +6,8 @@ export const Banner2Container = styled.div`
   height: 15vmax;
   display: block;
   left: 0;
-  top: 79px;
-  position: sticky;
-  position: -webkit-sticky;
+  top: 0;
+  position: relative;
   z-index: 3;
 `;
 
