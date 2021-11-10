@@ -23,8 +23,7 @@ const Contact = () => {
           <ContactRow>
             <ContactCol1>
               <FormHeading>Contact Us</FormHeading>
-              <ContactForm name="contact" action="/success" method="POST">
-                <input type="hidden" name="form-name" value="contact" />
+              <ContactForm name="contact">
                 <FormField>
                   <FormLabel>Name</FormLabel>
                   <FormInput

@@ -16,7 +16,6 @@ export const Nav = styled.nav`
   position: -moz-sticky;
   position: -o-sticky;
   position: -ms-sticky;
-  margin-top: -44px;
 `;
 
 export const NavbarContainer = styled.div`
