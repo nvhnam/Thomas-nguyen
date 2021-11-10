@@ -23,13 +23,7 @@ const Contact = () => {
           <ContactRow>
             <ContactCol1>
               <FormHeading>Contact Us</FormHeading>
-              <ContactForm
-                name="contact"
-                method="post"
-                data-netlify="true"
-                netlify
-                onSubmit="submit"
-              >
+              <ContactForm name="contact" action="/success" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <FormField>
                   <FormLabel>Name</FormLabel>
