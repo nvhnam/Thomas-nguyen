@@ -3,17 +3,23 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
   width: 100%;
   height: 800px;
-  position: sticky;
+  position: relative;
   justify-content: center;
   align-items: center;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
+  margin-top: 1000px;
   /* background-color: #e2c9be; */
   /* background-color: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%); */
   z-index: 4;
 
   @media screen and (max-width: 767px) {
     height: 560px;
+    margin-top: 1400px;
+  }
+
+  @media screen and (width: 320px) {
+    margin-top: 1200px;
   }
 `;
 

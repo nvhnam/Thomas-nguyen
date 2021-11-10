@@ -8,12 +8,22 @@ export const RecordingContainer = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 4;
-  position: relative;
-  top: 0;
+  position: absolute;
   left: 0;
+  top: 2350px;
+
+  @media screen and (max-width: 1024px) {
+    top: auto;
+  }
+
+  @media screen and (max-width: 940px) {
+    top: auto;
+  }
 
   @media screen and (max-width: 767px) {
+    top: auto;
     height: 88rem;
+    /* margin-bottom: 20rem; */
   }
 
   @media screen and (max-width: 320px) {
@@ -37,7 +47,7 @@ export const RecordingRow = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 20rem;
   }
 
   @media screen and (max-width: 320px) {

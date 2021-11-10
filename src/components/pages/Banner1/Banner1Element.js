@@ -8,19 +8,26 @@ export const Banner1Container = styled.div`
   height: 11vmax;
   margin-top: 9rem;
   left: 0;
-  right: 0;
-  top: 0px;
-  position: relative;
+  /* right: 0; */
+  top: 79px;
+  position: sticky;
+  position: -webkit-sticky;
   z-index: 2;
 
+  @media screen and (max-width: 1024px) {
+    margin-top: 2rem;
+  }
+
   @media screen and (max-width: 940px) {
+    margin-top: -2rem;
     top: 72px;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 767px) {
     height: 10vmax;
     margin-top: 34rem;
-    top: 70px;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 320px) {
@@ -54,10 +61,19 @@ export const BannerText = styled.h1`
   font-family: var(--Rubik);
   text-align: center;
 
+  @media screen and (max-width: 1024px) {
+    font-size: 3.5rem;
+    padding-top: 3rem;
+  }
+
+  @media screen and (max-width: 940px) {
+    font-size: 2.8rem;
+    padding-top: 2.8vmax;
+  }
+
   @media screen and (max-width: 767px) {
     font-size: 1.8rem;
     letter-spacing: 0.8rem;
-    padding-top: 2.8vmax;
   }
 
   @media screen and (max-width: 320px) {

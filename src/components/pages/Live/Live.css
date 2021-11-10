@@ -14,14 +14,13 @@
 
 @media screen and (max-width: 767px) {
   .LiveImg {
-    width: auto;
-    height: 170px;
+    width: 95%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .LiveImg {
-    width: auto;
-    height: 143px;
+    width: 97%;
   }
 }

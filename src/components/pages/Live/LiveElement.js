@@ -22,7 +22,7 @@ export const LiveWrapper = styled.div`
 
   @media screen and (max-width: 767px) {
     margin-left: auto;
-    margin-bottom: -10rem;
+    margin-bottom: -5rem;
     margin-top: 3rem;
   }
 
@@ -135,14 +135,14 @@ export const LiveCol2 = styled.div`
 
   @media screen and (max-width: 767px) {
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1.3rem;
+    /* margin-right: auto; */
     height: 170px;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
   }
 
   @media screen and (max-width: 320px) {
-    margin-left: 0.7rem;
+    margin-left: 1.19rem;
   }
 `;
 
