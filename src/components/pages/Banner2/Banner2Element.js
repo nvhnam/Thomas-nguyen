@@ -8,7 +8,7 @@ export const Banner2Container = styled.div`
   left: 0;
   top: 0;
   position: relative;
-  z-index: 3;
+  z-index: 5;
 `;
 
 export const Banner2Tag = styled.div`

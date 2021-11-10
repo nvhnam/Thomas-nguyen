@@ -9,6 +9,7 @@ export const LiveContainer = styled.div`
   overflow-y: scroll;
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  z-index: 1;
 
   @media screen and (max-width: 1024px) {
     height: 60vmax;
