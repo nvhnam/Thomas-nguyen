@@ -39,9 +39,15 @@ export const RecordingWrapper = styled.div`
 
 export const RecordingRow = styled.div`
   display: flex;
+  width: 100%;
+  margin-left: 4.5rem;
   padding: 7rem 2rem 1rem 2rem;
   flex-direction: row;
   justify-content: center;
+
+  @media screen and (max-width: 1024px) {
+    margin-left: 0;
+  }
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
