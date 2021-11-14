@@ -41,7 +41,7 @@ export const RecordingRow = styled.div`
   display: flex;
   padding: 7rem 2rem 1rem 2rem;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 
   @media screen and (max-width: 767px) {
     flex-direction: column;
