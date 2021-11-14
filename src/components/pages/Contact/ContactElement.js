@@ -55,9 +55,15 @@ export const ContactWrapper = styled.div`
 
 export const ContactRow = styled.div`
   display: flex;
+  width: 100%;
+  margin-left: 4.5rem;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1024px) {
+    margin-left: 0;
+  }
 
   @media screen and (max-width: 767px) {
     align-items: center;
