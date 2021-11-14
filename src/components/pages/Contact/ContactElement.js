@@ -8,7 +8,7 @@ export const ContactContainer = styled.div`
   align-items: center;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
-  margin-top: 1000px;
+  margin-top: 950px;
   /* background-color: #e2c9be; */
   /* background-color: linear-gradient(315deg, #e2c9be 0%, #fbf7e9 74%); */
   z-index: 5;
